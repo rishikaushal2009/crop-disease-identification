@@ -1,0 +1,86 @@
+
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Package/build artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+wheels/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+*.ipynb_convert_tmp
+
+# VS Code / Editors
+.vscode/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / secrets
+.env
+*.env
+.kaggle/
+kaggle.json
+
+# Data directories (raw / heavy)
+data/raw/
+data/interim/
+data/processed/
+data/external/
+# If to keep a small sample subset , create data/sample/ and whitelist:
+!data/sample/
+
+# Outputs (generated artifacts)
+outputs/
+# Whitelist key metrics artifacts if desired:
+!outputs/training_history.csv
+!outputs/classification_report.csv
+# (can Remove negation if not to track these)
+
+# Sample images & plots (often large / reproducible)
+outputs/samples/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Models (large weight files)
+models/
+# Whitelist lightweight mapping metadata
+!models/class_index.json
+
+
+# General large model weight patterns
+*.pt
+*.pth
+
+# Logs / debug
+logs/
+*.log
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+# Core
+torch
+torchvision
+torchaudio
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+gradio
+kaggle
+PyPDF2
+
+# Optional (comment out if not needed)
+# opencv-python
+# pillow  # already dependency of torchvision
